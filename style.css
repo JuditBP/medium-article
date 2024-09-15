@@ -1,0 +1,103 @@
+
+/* fonts and colors */
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #4352A1;
+  display: block;
+}
+
+/* Custom design */
+.subtitle {
+  color: rgb(123, 150, 109);
+  font-size: 37px;
+  font-size: 35px;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color:  #55644d;
+  text-shadow: 1px 1px 5px #b2b6af;
+  font-weight: 600;
+}
+.banner {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/63e7e1dd7bda54190b4e2d9b/1cd6b7e3-b9eb-4bbe-8281-f579971a4472/Olive+Tree+Spacing.jpeg");
+  background-size: cover;
+  color: white;
+  padding: 120px 15;
+  text-shadow: 3px 3px 15px #e3e5e1;
+}
+#banner-bckgr {
+  background-color: rgba(217, 212, 212, 0.6);
+  margin: 80px;
+  padding: 60px;
+}
+.banner h1 {
+  font-size: 60px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:  #18300d;
+}
+.banner p {
+  font-size: 32px;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color:  #104c10;
+  font-style: italic;
+  font-weight: 500;
+  opacity: 0.8;
+  text-shadow: 3px 3px 5px #0c230c;
+  color:#27422c;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+.link {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+.link:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+/* Media queries */
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
